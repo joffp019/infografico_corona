@@ -1,0 +1,98 @@
+data,mortes,acumulado,frase,noticia
+14/03,0,0,,
+15/03,0,0,,Bolsonaro participa de protestos anti-democracia.
+16/03,0,0,,
+17/03,1,1,Esse vírus trouxe uma certa histeria.,
+18/03,3,4,,
+19/03,2,6,,
+20/03,5,11,Não vai ser uma gripezinha que vai me derrubar.,
+21/03,7,18,,
+22/03,7,25,O povo saberá que foi enganado por esses governadores e por parte da grande mídia.,
+23/03,9,34,Não dá pra fazer mais do que estamos fazendo.,
+24/03,12,46,"Nada sentiria, ou sentiria, quando muito, uma gripezinha ou resfriadinho.",
+25/03,11,57,,
+26/03,20,77,Eu acho que não vai chegar a esse ponto.,
+27/03,15,92,A maioria das mortes não tem a ver com o coronavírus.,
+28/03,22,114,,
+29/03,22,136,Todo mundo vai morrer um dia.,
+30/03,23,159,Vai morrer gente? Vai!,
+31/03,42,201,,
+01/04,40,241,"Vírus é igual uma chuva. Você vai se molhar, mas não vai morrer afogado.",
+02/04,58,299,Tá com medinho de pegar o vírus?,
+03/04,60,359,,
+04/04,73,432,,
+05/04,54,486,,
+06/04,67,553,,
+07/04,114,667,,
+08/04,133,800,,
+09/04,141,941,,
+10/04,115,1056,,Cria aglomerações na rua. 
+11/04,68,1124,Ninguém vai tolher meu direito de ir e vir.,
+12/04,99,1223,Parece que está começando a ir embora essa questão do vírus.,
+13/04,105,1328,,
+14/04,204,1532,,
+15/04,204,1736,,"The Washington Post: ""Bolsonaro é o pior gestor da pandemia""."
+16/04,188,1924,,Bolsonaro demite Mandetta.
+17/04,217,2141,,Teich assume o Ministério da Saúde.
+18/04,206,2347,"Infelizmente tem morrido gente. Tem, né? Ninguém falou que ia ser diferente. Mas o pavor foi demais. ",
+19/04,115,2462,,Participa de protestos anti-democracia.
+20/04,295,2757,Eu não sou coveiro.,
+21/04,-16,2741,,
+22/04,165,2906,,
+23/04,407,3313,,
+24/04,357,3670,,Moro se demite e acusa Bolsonaro de interferir na Polícia Federal.
+25/04,346,4016,,
+26/04,189,4205,,
+27/04,338,4543,,
+28/04,474,5017,E daí? Lamento. Quer que eu faça o quê? Eu sou Messias mas não faço milagre.,
+29/04,449,5466,Não vão colocar no meu colo uma conta que não é minha. ,
+30/04,435,5901,,
+01/05,428,6329,,
+02/05,421,6750,,
+03/05,275,7025,,
+04/05,296,7321,,
+05/05,600,7921,,
+06/05,615,8536,,
+07/05,610,9146,,
+08/05,751,9897,,
+09/05,730,10627,,
+10/05,496,11123,,
+11/05,396,11519,,"Em coletiva, Teich descobre decisão de Bolsonaro sobre flexibilização de regras de isolamento social, sem seu conhecimento."
+12/05,881,12400,,
+13/05,749,13149,,
+14/05,844,13993,,
+15/05,824,14817,,Teich se demite.
+16/05,816,15633,,
+17/05,485,16118,,Bolsonaro participa de protestos anti-democracia.
+18/05,674,16792,,
+19/05,1179,17971,,
+20/05,888,18859,,"Ministério da Saúde, sem ministro, formaliza tratamento com remédio sem comprovação de eficácia."
+21/05,1188,20047,,
+22/05,1001,21048,,"Brasil vira país com o segundo maior número de casos, passando a Rússia."
+23/05,965,22013,,"Vídeo da reunião ministerial de 2 horas mostra Bolsonaro dizendo que quer intervir na ""Segurança"" (PF) e ignorando pandemia."
+24/05,653,22666,,Cria mais aglomerações.
+25/05,807,23473,,Folha de S. Paulo e jornais do Grupo Globo deixam de cobrir coletivas matinais de Bolsonaro por causa da agressividade de seus apoiadores.
+26/05,1039,24512,Estão se vitimizado.,
+27/05,1086,25598,,
+28/05,1156,26754,,
+29/05,1124,27878,,Mais de 50% da população reprova resposta de Bolsonaro à pandemia (Datafolha).
+30/05,956,28834,,Cria mais aglomerações.
+31/05,480,29314,,
+01/06,623,29937,,
+02/06,1262,31199,,
+03/06,1349,32548,,
+04/06,1473,34021,,
+05/06,1005,35026,,Governo oculta e atrasa divulgação de dados completos da pandemia.
+06/06,904,35930,,
+07/06,533,36463,,"Financial Times: ""Bolsonaro acende medo na democracia brasileira""."
+08/06,856,37319,,
+09/06,1178,38497,,
+10/06,1300,39797,,
+11/06,1261,41058,,Veta PL que impedia despejo de inquilino durante quarentena.
+12/06,843,41901,Arranja uma maneira de entrar [em hospitais públicos] e filmar [...] para mostrar se os leitos estão ocupados ou não.,"Brasil vira o país com o segundo maior número de óbitos, superando o Reino Unido."
+13/06,890,42791,,
+14/06,598,43389,,
+15/06,729,44118,,
+16/06,1338,45456,,
+17/06,1209,46665,,
+18/06,,,,
