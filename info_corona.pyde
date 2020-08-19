@@ -23,7 +23,7 @@ def setup():
     
     video_export.setQuality(90, 0)
   
-    video_export.setFrameRate(5)
+    video_export.setFrameRate(20)
     
     video_export.startMovie()
     
@@ -57,6 +57,9 @@ def setup():
     noStroke()
     rect(0,0,400,750)
     
+    global var
+    var = 80
+    
     fill(60)
     rect(20, 120, 360, 250)
     triangle(230,300,330,300,230,400)
@@ -66,63 +69,82 @@ def setup():
     foto = loadImage('bolsonaro.png')
     image(foto,-15,414)
     
+    global icon
+    icon = loadImage('icon-01.png')
+    
     textAlign(LEFT)
     fill(255, 80)
     textFont(font5)
     textSize(14)
     textLeading(18)
-    text('Atualizado em 17 de junho', 20, 390, 100, 100)
+    text('Atualizado em 8 de agosto', 20, 390, 100, 100)
 
 def virus(v):
-    fill('#FFA2A2')
+    global ultimarow
+    fill('#F26767')
     noStroke()
     for n in range (v):
-        x = random(420,1180)
-        y = random(140,730)
+        # if n == ultimarow:
+        #     fill(255)
+        # else:
+        #     fill('#F26767')
+        x = random(402,1198)
+        y = random(122,748)
         ellipse (x, y, 2, 2)
         
     
 def fonte():
-    fill('#FFA2A2')
+    fill('#F26767')
     rect(400,40,800,80)
     fill(0,0,0,90)
     textAlign(LEFT)
     textFont(font2)
     textSize(12)
-    text('Fonte: Ministério da Saúde', 990, 55, 200, 200)
-    text('A partir de 08/06: Consórcio de veículos da imprensa', 990, 80, 200, 200)
+    text('Fonte: Ministério da Saúde', 415, 98, 220, 200)
+    # text('A partir de 08/06: Consórcio de veículos da imprensa', 416, 80, 200, 200)
     
     
 def titulo():
     fill(0)
     rect(400,0,800,40)
-    fill('#ffa2a2')
+    fill('#F26767')
     textAlign(CENTER)
-    textFont(font1)
-    textSize(20)
-    text('Total de óbitos no Brasil causados pelo Covid-19, desde março', 800, 30)
+    textFont(font2)
+    textSize(16)
+    text('Total de óbitos no Brasil causados pelo Covid-19, desde março', 800, 26)
     
 def data(a):
     fill(0)
-    textAlign(LEFT)
-    textFont(font1)
-    textSize(40)
-    text(a, 425, 95)
-    
-def mortes(b):
-    fill(0)
+    # rect(400, 120, 800, 30)
+    # fill('#F26767')
     textAlign(LEFT)
     textFont(font2)
-    textSize(18)
-    text('Novas mortes: +' + str(b), 550, 75)   
+    textSize(24)
+    text(a, 415, 75)
+    
+def mortes(b):
+    global var
+    fill(0)
+    textAlign(CENTER)
+    textFont(font2)
+    textSize(16)
+    text('Mortes diárias', 800 - var, 64)
+    textAlign(CENTER)
+    textFont(font1)
+    textSize(38)
+    text(str(b), 800 - var, 105)   
     # println(b)
     
 def acumulado(c):
     fill(0)
-    textAlign(LEFT)
+    textAlign(CENTER)
     textFont(font2)
-    textSize(18)
-    text('Acumulado: ' + str(c), 550, 100)
+    textSize(16)
+    text('Acumulado', 800 + var, 64)
+    textAlign(CENTER)
+    textFont(font1)
+    textSize(38)
+    text(str(c), 800 + var, 105)
     
 def frase(d, fonte):
     if d != '':
@@ -132,7 +154,7 @@ def frase(d, fonte):
         # '#FFF703' amarelo
         # '#23761C' verde
 
-    fill('#ffa2a2')
+    fill('#F26767')
     textAlign(LEFT)
     textFont(fonte)
     textSize(30)
@@ -153,15 +175,17 @@ def noticia(e, fonte):
     textLeading(20)
     text(e, 20, 25, 320, 80)
     
-    
 def acidentes(f):
+    fill(0, 100)
     textAlign(RIGHT)
-    textFont(font1,40)
-    text('= ' + str(f/200), 830, 95)
+    textFont(font1, 30)
+    text('= ' + str(f/200), 1025, 90)
     textAlign(LEFT)
     textFont(font2)
-    textSize(16)
-    text('acidentes aéreos (200 pessoas)', 840, 60, 160, 140)
+    textSize(12)
+    text('acidentes aéreos (200 pessoas)', 1035, 65, 120, 160)
+    global icon
+    image(icon, 1140, 58)
 
 def loadData():
     t = millis()
@@ -170,6 +194,7 @@ def loadData():
     global comtexto
         
     n = int(t/1000) # contador de "segundos"
+    # print(n)
         
     row = table.getRow(int(n)) 
             
@@ -184,6 +209,7 @@ def loadData():
     if n > ultimarow: # a cada segundo, n fica maior, superando uma integral por vez
         virus(b) # b é especificado pela row correspondente do n do momento
         ultimarow = n #transforma o decimal na integral
+        print(ultimarow)
         
     mortes(b)
     acidentes(c)
@@ -192,7 +218,7 @@ def loadData():
           
     noticia(e, font4)  
         
-    if n == 96:
+    if n == 148:
         noLoop()
         video_export.endMovie()
     

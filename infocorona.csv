@@ -36,8 +36,8 @@ data,mortes,acumulado,frase,noticia
 17/04,217,2141,,Teich assume o Ministério da Saúde.
 18/04,206,2347,"Infelizmente tem morrido gente. Tem, né? Ninguém falou que ia ser diferente. Mas o pavor foi demais. ",
 19/04,115,2462,,Participa de protestos anti-democracia.
-20/04,295,2757,Eu não sou coveiro.,
-21/04,-16,2741,,
+20/04,113,2575,Eu não sou coveiro.,
+21/04,166,2741,,
 22/04,165,2906,,
 23/04,407,3313,,
 24/04,357,3670,,Moro se demite e acusa Bolsonaro de interferir na Polícia Federal.
@@ -48,14 +48,14 @@ data,mortes,acumulado,frase,noticia
 29/04,449,5466,Não vão colocar no meu colo uma conta que não é minha. ,
 30/04,435,5901,,
 01/05,428,6329,,
-02/05,421,6750,,
-03/05,275,7025,,
+02/05,395,6724,,
+03/05,301,7025,,
 04/05,296,7321,,
 05/05,600,7921,,
-06/05,615,8536,,
-07/05,610,9146,,
-08/05,751,9897,,
-09/05,730,10627,,
+06/05,614,8535,,
+07/05,611,9146,,
+08/05,749,9895,,
+09/05,732,10627,,Bolsonaro passeia de jet ski no lago Paranoá.
 10/05,496,11123,,
 11/05,396,11519,,"Em coletiva, Teich descobre decisão de Bolsonaro sobre flexibilização de regras de isolamento social, sem seu conhecimento."
 12/05,881,12400,,
@@ -68,8 +68,8 @@ data,mortes,acumulado,frase,noticia
 19/05,1179,17971,,
 20/05,888,18859,,"Ministério da Saúde, sem ministro, formaliza tratamento com remédio sem comprovação de eficácia."
 21/05,1188,20047,,
-22/05,1001,21048,,"Brasil vira país com o segundo maior número de casos, passando a Rússia."
-23/05,965,22013,,"Vídeo da reunião ministerial de 2 horas mostra Bolsonaro dizendo que quer intervir na ""Segurança"" (PF) e ignorando pandemia."
+22/05,999,21046,,"Brasil vira país com o segundo maior número de casos, passando a Rússia."
+23/05,967,22013,,"Vídeo da reunião ministerial de 2 horas mostra Bolsonaro dizendo que quer intervir na ""Segurança"" (PF) e ignorando pandemia."
 24/05,653,22666,,Cria mais aglomerações.
 25/05,807,23473,,Folha de S. Paulo e jornais do Grupo Globo deixam de cobrir coletivas matinais de Bolsonaro por causa da agressividade de seus apoiadores.
 26/05,1039,24512,Estão se vitimizado.,
@@ -77,22 +77,76 @@ data,mortes,acumulado,frase,noticia
 28/05,1156,26754,,
 29/05,1124,27878,,Mais de 50% da população reprova resposta de Bolsonaro à pandemia (Datafolha).
 30/05,956,28834,,Cria mais aglomerações.
-31/05,480,29314,,
+31/05,480,29314,,Brasil começa a liderar mundialmente número de casos diários.
 01/06,623,29937,,
 02/06,1262,31199,,
 03/06,1349,32548,,
 04/06,1473,34021,,
 05/06,1005,35026,,Governo oculta e atrasa divulgação de dados completos da pandemia.
 06/06,904,35930,,
-07/06,533,36463,,"Financial Times: ""Bolsonaro acende medo na democracia brasileira""."
-08/06,856,37319,,
-09/06,1178,38497,,
-10/06,1300,39797,,
-11/06,1261,41058,,Veta PL que impedia despejo de inquilino durante quarentena.
-12/06,843,41901,Arranja uma maneira de entrar [em hospitais públicos] e filmar [...] para mostrar se os leitos estão ocupados ou não.,"Brasil vira o país com o segundo maior número de óbitos, superando o Reino Unido."
-13/06,890,42791,,
-14/06,598,43389,,
-15/06,729,44118,,
-16/06,1338,45456,,
-17/06,1209,46665,,
-18/06,,,,
+07/06,525,36455,,"Financial Times: ""Bolsonaro acende medo na democracia brasileira""."
+08/06,679,37134,,
+09/06,1272,38406,,
+10/06,1274,39680,,
+11/06,1239,40919,,Veta PL que impedia despejo de inquilino durante quarentena.
+12/06,909,41828,Arranja uma maneira de entrar [em hospitais públicos] e filmar [...] para mostrar se os leitos estão ocupados ou não.,"Brasil vira o país com o segundo maior número de óbitos, superando o Reino Unido."
+13/06,892,42720,,
+14/06,612,43332,,
+15/06,627,43959,,
+16/06,1282,45241,,
+17/06,1269,46510,,
+18/06,1238,47748,...,Queiroz é encontrado na casa de advogado da família Bolsonaro e é preso.
+19/06,1206,48954,,
+20/06,1022,49976,,
+21/06,641,50617,,
+22/06,654,51271,,
+23/06,1374,52645,,
+24/06,1185,53830,,
+25/06,1141,54971,,
+26/06,990,55961,,
+27/06,1109,57070,,
+28/06,552,57622,,
+29/06,692,58314,,
+30/06,1280,59594,,
+01/07,1038,60632,,
+02/07,1252,61884,,
+03/07,1290,63174,,Bolsonaro veta uso obrigatório de máscara em locais públicos.
+04/07,1091,64265,,
+05/07,602,64867,,
+06/07,620,65487,,
+07/07,1254,66741,,Bolsonaro testa positivo para o vírus.
+08/07,1223,67964,,"Bolsonaro veta trecho de lei para desobrigar governo a fornecer água potável, alimentos e leitos para povos indígenas. "
+09/07,1220,69184,,
+10/07,1214,70398,,
+11/07,1071,71469,,
+12/07,631,72100,,
+13/07,733,72833,,
+14/07,1300,74133,,
+15/07,1233,75366,,
+16/07,1322,76688,"[Sobre a cloroquina] não tem comprovação que não tem comprovação eficaz. Nem que não tem, nem que tem",
+17/07,1163,77851,,
+18/07,921,78772,,
+19/07,716,79488,,Bolsonaro faz propaganda de cloroquina em redes sociais e em aglomerações.
+20/07,632,80120,,
+21/07,1367,81487,,
+22/07,1284,82771,,
+23/07,1311,84082,,"Bolsonaro, com o covid, fala com funcionários do Palácio da Alvorada sem máscara."
+24/07,1156,85238,,
+25/07,1211,86449,,
+26/07,555,87004,,
+27/07,614,87618,,
+28/07,921,88539,,
+29/07,1595,90134,,
+30/07,1129,91263,Peguei mofo no pulmão.,
+31/07,1212,92475,,
+01/08,1088,93563,,
+02/08,541,94104,,
+03/08,561,94665,,
+04/08,1154,95819,,
+05/08,1421,97240,,
+06/08,1253,98493,,
+07/08,1079,99572,,
+08/08,905,100477,,
+09/08,,,,
+10/08,,,,
+11/08,,,,
